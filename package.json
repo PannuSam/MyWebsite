@@ -1,0 +1,19 @@
+{
+  "name": "mywebsite",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --input=src --serve",
+    "build": "npx @11ty/eleventy --input=src"
+  },
+  "keywords": [],
+  "author": "Samanpreet Kaur",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}

@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-image: linear-gradient(to bottom, rgb(14, 94, 185), rgb(140, 240, 240)),
+     url("/src/img/home.jpg");
+}
+.main-content{
+flex: 2;
+}
+footer{
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+}
+  .content-adj{
+      background-color: rgb(158, 206, 218);
+      text-align: center;  
+  }
+  .adj{
+      margin-top: 6em;
+  }
+

@@ -1,0 +1,33 @@
+---
+title:
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css”>
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.8.3/dist/paper.min.css">
+    <link rel="icon" href="/assets/logo.jpg" />
+    <title><% if(title){ %><%= title %> – <% } %>Beautiful Places</title> 
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="content">
+	
+	<%- include('nav'); %>
+    <div class="container container-lg padding-top-large paper content-adj adj">
+        <%- content %>
+    </div>
+
+	<footer>
+		<p>
+			&copy; 2022 by Samanpreet Kaur
+		</p>
+		<p>
+			You can reach us on Beaitifulplaces00@gmail.com
+		</p>
+	</footer>
+	
+
+</body>
+</html>
